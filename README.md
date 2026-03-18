@@ -25,13 +25,12 @@ This project is a DevOps automation script that uploads a local backup file to A
 - Git
 
 ---
-python-s3-backup
+'''python-s3-backup
 │
 ├── s3.backup.py
 ├── backups
 ├── screenshots
-└── README.md
-
+└── README.md'''
 ---
 
 ## ⚙️ Setup
@@ -45,11 +44,11 @@ aws configure
 ---
 
 ## ▶️ Commands Used
-cd Documents/python-for-devops
+'''cd Documents/python-for-devops
 pwd
 cd backups
 cd ..
-python s3.backup.py
+python s3.backup.py'''
 
 ---
 
