@@ -40,29 +40,29 @@ python-s3-backup
 ## ⚙️ Setup
 
 Install boto3:
-'''bash
-pip install boto3'''
+```bash
+pip install boto3```
 
 ---
 Configure AWS:
-'''bash
-aws configure'''
+```bash
+aws configure```
 
 ---
 
 ## ▶️ Commands Used
-'''bash
+```bash
 cd Documents/python-for-devops
 pwd
 cd backups
 cd ..
-python s3.backup.py '''
+python s3.backup.py ```
 
 ## ☁️ Output
 
 Backup uploaded to S3:
-
-
+```bash
+my-backup.tar.gz```
 
 ---
 
