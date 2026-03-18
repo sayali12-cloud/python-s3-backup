@@ -25,7 +25,7 @@ This project is a DevOps automation script that uploads a local backup file to A
 - Git
 
 ---
-''' 
+
 python-s3-backup
 │
 ├── s3.backup.py
@@ -33,7 +33,7 @@ python-s3-backup
 ├── screenshots
 └── README.md 
 
-'''
+
 ---
 
 ## ⚙️ Setup
