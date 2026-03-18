@@ -47,11 +47,11 @@ aws configure
 ---
 
 ## ▶️ Commands Used
-'''cd Documents/python-for-devops
+cd Documents/python-for-devops
 pwd
 cd backups
 cd ..
-python s3.backup.py'''
+python s3.backup.py
 
 ---
 
@@ -83,5 +83,4 @@ Sayali Adsul
 DevOps & AWS Learner
 
 
-## 📁 Project Structure
 
