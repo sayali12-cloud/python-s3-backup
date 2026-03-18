@@ -25,29 +25,27 @@ This project is a DevOps automation script that uploads a local backup file to A
 - Git
 
 ---
+
 ## 📁 Project Structure
 
-python-s3-backup
-│
-├── s3.backup.py
-├── backups
-├── screenshots
-└── README.md 
-
-
 ---
-
 ## ⚙️ Setup
 
 Install boto3:
-pip install boto3
 
 Configure AWS:
-aws configure
 
 ---
 
 ## ▶️ Commands Used
+
+---
+
+## ☁️ Output
+
+Backup uploaded to S3:
+
+
 
 ---
 
