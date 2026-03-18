@@ -40,9 +40,7 @@ Install boto3:
 pip install boto3
 
 Configure AWS:
-
 aws configure
-
 
 ---
 
@@ -52,7 +50,6 @@ pwd
 cd backups
 cd ..
 python s3.backup.py
-
 
 ---
 
