@@ -50,11 +50,11 @@ aws configure
 
 ## ▶️ Commands Used
 
-cd Documents/python-for-devops
-pwd
-cd backups
-cd ..
-python s3.backup.py
+'''cd Documents/python-for-devops'''
+'''pwd'''
+'''cd backups'''
+'''cd ..'''
+'''python s3.backup.py'''
 
 ---
 
@@ -62,7 +62,7 @@ python s3.backup.py
 
 Backup uploaded to S3:
   
-my-backup.tar.gz
+'''my-backup.tar.gz'''
 
 
 ---
