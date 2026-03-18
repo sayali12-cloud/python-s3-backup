@@ -38,6 +38,7 @@ Install boto3:
 pip install boto3
 
 aws configure
+---
 
 ## ▶️ Commands Used
 
@@ -46,7 +47,7 @@ pwd
 cd backups
 cd ..
 python s3.backup.py
-
+---
 ## 📷 Screenshots
  ### Script Execution ![Script](screenshots/script-run.png)
  ### S3 Bucket ![Bucket](screenshots/s3-bucket.png)
