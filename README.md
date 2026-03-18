@@ -25,6 +25,7 @@ This project is a DevOps automation script that uploads a local backup file to A
 - Git
 
 ---
+## 📁 Project Structure
 
 python-s3-backup
 │
