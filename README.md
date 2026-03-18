@@ -28,70 +28,35 @@ This project is a DevOps automation script that uploads a local backup file to A
 
 ## 📁 Project Structure
 
-python-s3-backup
-│
-├── s3.backup.py
-├── backups
-├── screenshots
-└── README.md
-
 ---
 
 ## ⚙️ Setup
 
 Install boto3:
-```bash
-pip install boto3```
 
----
-Configure AWS:
 ```bash
-aws configure```
+pip install boto3
 
----
+aws configure
 
 ## ▶️ Commands Used
-```bash
+
 cd Documents/python-for-devops
 pwd
 cd backups
 cd ..
-python s3.backup.py ```
-
-## ☁️ Output
-
-Backup uploaded to S3:
-```bash
-my-backup.tar.gz```
-
----
+python s3.backup.py
 
 ## 📷 Screenshots
-
-### Script Execution
-![Script](screenshots/script-run.png)
-
-### S3 Bucket
-![Bucket](screenshots/s3-bucket.png)
-
-### Uploaded Backup
-![Upload](screenshots/backup-uploaded.png)
-
----
-
+ ### Script Execution ![Script](screenshots/script-run.png)
+ ### S3 Bucket ![Bucket](screenshots/s3-bucket.png)
+ ### Uploaded Backup ![Upload](screenshots/backup-uploaded.png)
+ ---
 ## 📌 DevOps Concepts
-
-- AWS S3
-- Automation
-- Backup management
-- Python scripting
-
+ - AWS S3
+ - Automation
+ - Backup management - Python scripting
 ---
-
-## 👩‍💻 Author
-
-Sayali Adsul  
-DevOps & AWS Learner
-
+## 👩‍💻 Author Sayali Adsul DevOps & AWS Learner
 
 
