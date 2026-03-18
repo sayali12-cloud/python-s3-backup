@@ -48,11 +48,6 @@ aws configure
 ---
 
 ## ▶️ Commands Used
-cd Documents/python-for-devops
-pwd
-cd backups
-cd ..
-python s3.backup.py
 
 ---
 
