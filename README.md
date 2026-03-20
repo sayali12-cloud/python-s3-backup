@@ -47,8 +47,6 @@ python-for-devops
 3. It reads the backup file from local system.
 4. The file is uploaded to AWS S3 with a new name.
 
----
-
 ## Example Code
 
 ```python
