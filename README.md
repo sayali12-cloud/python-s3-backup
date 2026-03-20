@@ -31,9 +31,9 @@ python-for-devops
 3. It reads the backup file from local system.
 4. The file is uploaded to AWS S3 with a new name.
 ---
-## Example Code
 
-```python
+### Example Code
+
 s3.Bucket(bucket_name).put_object(Key=key_name, Body=data)
 ---
 
