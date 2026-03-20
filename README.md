@@ -1,6 +1,6 @@
 # 🚀 Python AWS S3 Backup Automation
 ![Python](https://img.shields.io/badge/Python-3.x-blue) ![AWS](https://img.shields.io/badge/AWS-S3-orange) 
-
+---
 This project is a DevOps automation script that uploads a local backup file to AWS S3 using Python. 
 ---
 ## 📌 Features
@@ -8,16 +8,14 @@ This project is a DevOps automation script that uploads a local backup file to A
 - List existing S3 buckets
 - Upload backup file to S3
 - Automated backup storage in cloud
-
+---
 ## Technologies Used
-
 - Python
 - AWS S3
 - Boto3
 - PowerShell
-
+---
 ## Project Structure
-
 python-for-devops
 │
 ├── s3.backup.py
@@ -25,14 +23,14 @@ python-for-devops
 │   └── backup_2026-03-06.tar.gz
 └── README.md
 
-
+---
 ## How It Works
 
 1. Python script connects to AWS using Boto3.
 2. It creates an S3 bucket if required.
 3. It reads the backup file from local system.
 4. The file is uploaded to AWS S3 with a new name.
-
+---
 ## Example Code
 
 ```python
@@ -40,7 +38,6 @@ s3.Bucket(bucket_name).put_object(Key=key_name, Body=data)
 ---
 
 ## Requirements
-
 ## Install boto3 library:
 pip install boto3
 
@@ -60,8 +57,8 @@ python s3.backup.py
 
 ## ☁️ Output
 
-Backup uploaded to S3:
-
+Backup uploaded successfully :
+---
 ## 📷 Screenshots
 
 ### Script Execution
