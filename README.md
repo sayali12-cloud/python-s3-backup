@@ -53,7 +53,6 @@ python-for-devops
 
 ```python
 s3.Bucket(bucket_name).put_object(Key=key_name, Body=data)
----
 
 ## Requirements
 
@@ -75,17 +74,16 @@ Provide:
 - Region  
 - Output format
 
----
 ## Run the Script
 
 ```bash
 python s3.backup.py
 
----
 
 ## ☁️ Output
 
-Backup uploaded successfully :
+Backup uploaded successfully 
+
 ---
 ## 📷 Screenshots
 
@@ -99,7 +97,7 @@ Backup uploaded successfully :
 ![Upload](screenshots/backup-uploaded.png)
 
 ---
-
+---
 ## 📌 DevOps Concepts
 
 - AWS S3
