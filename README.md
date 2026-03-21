@@ -38,23 +38,26 @@ python-for-devops
 └── README.md
 ```
 
+
 ---
 
-## How It Works
+## ⚙️ How It Works
 
-1. Python script connects to AWS using Boto3.
-2. It creates an S3 bucket if required.
-3. It reads the backup file from local system.
-4. The file is uploaded to AWS S3 with a new name.
+1. Python script connects to AWS using Boto3  
+2. It creates an S3 bucket if required  
+3. It reads the backup file from local system  
+4. The file is uploaded to AWS S3 with a new name  
 
-## Example Code
+---
+
+## 💻 Example Code
 
 ```python
 s3.Bucket(bucket_name).put_object(Key=key_name, Body=data)
 
 ## Requirements
 
-### Install boto3 library
+## Install boto3 library
 
 ```bash
 pip install boto3
