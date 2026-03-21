@@ -55,6 +55,7 @@ python-for-devops
 ```python
 s3.Bucket(bucket_name).put_object(Key=key_name, Body=data)
 
+---
 ## Requirements
 
 ## Install boto3 library
@@ -62,6 +63,7 @@ s3.Bucket(bucket_name).put_object(Key=key_name, Body=data)
 ```bash
 pip install boto3
 
+---
 ## Configure AWS Credentials
 
 Run:
@@ -75,12 +77,13 @@ Provide:
 - Region  
 - Output format
 
+---
 ## Run the Script
 
 ```bash
 python s3.backup.py
 
-
+---
 ## ☁️ Output
 
 Backup uploaded successfully 
