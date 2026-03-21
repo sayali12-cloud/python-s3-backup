@@ -1,7 +1,6 @@
 # 🚀 Python AWS S3 Backup Automation
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)  
-![AWS](https://img.shields.io/badge/AWS-S3-orange)
+![Python](https://img.shields.io/badge/Python-3.x-blue)  ![AWS](https://img.shields.io/badge/AWS-S3-orange)
 
 ---
 
