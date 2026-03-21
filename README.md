@@ -29,11 +29,13 @@ This project is a DevOps automation script that uploads a local backup file to A
 ## 📁 Project Structure
 
 ```
-python-for-devops
-│
+python-s3-backup
 ├── s3.backup.py
-├── backups
-│   └── backup_2026-03-06.tar.gz
+├── backups/
+│   └── .gitkeep
+├── screenshots/
+├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
